@@ -1,0 +1,6 @@
+Container contains 5 elements. 
+It is aphorism: aphor and it's autor is: karina
+It is proverb: prov and it's from country: russia
+It is aphorism: abc and it's autor is: def
+It is proverb: qwe and it's from country: rty
+It is aphorism: 123 and it's autor is: 456
