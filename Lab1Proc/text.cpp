@@ -3,6 +3,7 @@
 #include "text.h"
 #include "proverb.h"
 #include "aphorism.h"
+#include "riddle.h"
 
 namespace type_texts {
 
@@ -22,6 +23,11 @@ namespace type_texts {
 			t = (text*)proverb_input(ifst);
 			t->key = text::type::PROVERB;
 			return t;
+		case 3:
+			t = new text;
+			t = (text*)riddle_input(ifst);
+			t->key = text::type::RIDDLE;
+			return t;
 		default:
 			return 0;
 		}
@@ -39,6 +45,11 @@ namespace type_texts {
 		else if (t->key == text::type::PROVERB)
 		{
 			proverb_output((proverb*)t, ofst);
+			return true;
+		}
+		else if (t->key == text::type::RIDDLE)
+		{
+			riddle_output((riddle*)t, ofst);
 			return true;
 		}
 		else
