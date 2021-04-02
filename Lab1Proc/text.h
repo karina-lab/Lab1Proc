@@ -25,5 +25,7 @@ namespace type_texts {
 
 	text* text_input(ifstream& ifst);
 	bool text_output(text* t, ofstream& ofst);
+
+
 }
 #endif

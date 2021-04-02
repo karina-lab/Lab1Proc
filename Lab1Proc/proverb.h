@@ -13,5 +13,6 @@ namespace type_texts {
 	};
 	proverb* proverb_input(ifstream& ifst);
 	void proverb_output(proverb* p, ofstream& ofst);
+	int get_punctuation(proverb* p);
 }
 #endif
