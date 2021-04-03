@@ -25,7 +25,8 @@ namespace type_texts {
 
 	text* text_input(ifstream& ifst);
 	bool text_output(text* t, ofstream& ofst);
-
+	bool compare(text* txt1, text* txt2);
+	int get_punctuation(text* t);
 
 }
 #endif

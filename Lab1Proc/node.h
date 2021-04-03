@@ -10,7 +10,7 @@ namespace type_texts {
 	
 	struct node
 	{
-		text* plt;
+		text* txt;
 		node* next;
 		node* prev;
 	};

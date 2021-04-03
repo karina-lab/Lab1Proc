@@ -19,9 +19,9 @@ namespace type_texts {
 	{
 		struct node* newNode = new node();
 
-		newNode->plt = text_input(ifst);
+		newNode->txt = text_input(ifst);
 
-		if (newNode->plt == 0)
+		if (newNode->txt == 0)
 		{
 			delete (newNode);
 			return false;

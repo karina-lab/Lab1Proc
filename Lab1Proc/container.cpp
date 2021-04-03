@@ -57,7 +57,7 @@ namespace type_texts {
 			currentNode = currentNode->next;
 		}
 
-		if (!text_output(currentNode->plt, ofst))
+		if (!text_output(currentNode->txt, ofst))
 		{
 			cout << "Cannot output text!" << endl;
 			return false;
@@ -83,5 +83,40 @@ namespace type_texts {
 			}
 		}
 	}
+
+	node* get_node(node* head, int index)
+	{
+		struct node* returnNode = head;
+
+		for (int i = 0; i < index; i++)
+		{
+			returnNode = returnNode->next;
+		}
+		return returnNode;
+	}
+
+	void swap(node* head, int index_first, int index_second)
+	{
+		struct node* temp = new node;
+
+		temp->txt = get_node(head, index_first)->txt;
+		get_node(head, index_first)->txt = get_node(head, index_second)->txt;
+		get_node(head, index_second)->txt = temp->txt;
+	}
+
+	void sort(int size, struct node* head)
+	{
+		for (int i = 0; i < size - 1; i++)
+		{
+			for (int j = i + 1; j < size; j++)
+			{
+				if (compare(get_node(head, i)->txt, get_node(head, j)->txt))
+				{
+					swap(head, i, j);
+				}
+			}
+		}
+	}
+
 
 } 
