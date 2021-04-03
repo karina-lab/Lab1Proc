@@ -62,9 +62,9 @@ namespace type_texts {
 	}
 
 
-	bool compare(text* txt1, text* txt2)
+	bool compare(text* plt1, text* plt2)
 	{
-		return get_punctuation(txt1) < get_punctuation(txt2);
+		return get_punctuation(plt1) < get_punctuation(plt2);
 	}
 
 
