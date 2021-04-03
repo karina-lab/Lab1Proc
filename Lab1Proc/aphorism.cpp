@@ -21,7 +21,7 @@
 	int get_punctuation(aphorism* a)
 	{
 		int count = 0;
-		string punc = ".,!?;:-";
+		string punc = ".,!?;:-()";
 
 		for (int i = 0; i < punc.size(); i++)
 		{

@@ -21,7 +21,7 @@ namespace type_texts {
 	int get_punctuation(proverb* p)
 	{
 		int count = 0;
-		string punc = ".,!?;:-";
+		string punc = ".,!?;:-()";
 
 		for (int i = 0; i < punc.size(); i++)
 		{
