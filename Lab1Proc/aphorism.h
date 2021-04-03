@@ -10,6 +10,7 @@ namespace type_texts {
 	{
 		string content;
 		string autor;
+		int rating;
 	};
 	aphorism* aphorism_input(ifstream& ifst);
 	void aphorism_output(aphorism* a, ofstream& ofst);

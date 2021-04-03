@@ -157,6 +157,7 @@
     <ClCompile Include="node.cpp" />
     <ClCompile Include="proverb.cpp" />
     <ClCompile Include="text.cpp" />
+    <ClCompile Include="TryInt32.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="aphorism.h" />
@@ -164,6 +165,7 @@
     <ClInclude Include="node.h" />
     <ClInclude Include="proverb.h" />
     <ClInclude Include="text.h" />
+    <ClInclude Include="TryInt32.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

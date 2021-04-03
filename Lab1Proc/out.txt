@@ -1,6 +1,6 @@
 Container contains 5 elements. 
-It is aphorism: aphor and it's autor is: karina
-It is proverb: prov and it's from country: russia
-It is aphorism: abc and it's autor is: def
-It is proverb: qwe and it's from country: rty
-It is aphorism: 123 and it's autor is: 456
+It is aphorism: aphor, it's autor is: karina and its rating is: 1
+It is proverb: prov, it's from country: russia and its rating is unknown 
+It is aphorism: abc, it's autor is: def and its rating is: 6
+It is proverb: qwe, it's from country: rty and its rating is: 3
+It is aphorism: 123, it's autor is: 456 and its rating is: 5

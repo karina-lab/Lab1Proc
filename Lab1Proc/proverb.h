@@ -10,6 +10,7 @@ namespace type_texts {
 	{
 		string content;
 		string country;
+		int rating;
 	};
 	proverb* proverb_input(ifstream& ifst);
 	void proverb_output(proverb* p, ofstream& ofst);
