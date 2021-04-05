@@ -36,6 +36,7 @@ int main(int argc, char const* argv[])
 	cout << "Sorted container. " << endl;
 	sort(c->size, c->head);
 	output_list(c, ofst);
+	//output_aphorism(c, ofst);
 	clear_list(c);
 	cout << "Empty container. " << endl;
 	output_list(c, ofst);

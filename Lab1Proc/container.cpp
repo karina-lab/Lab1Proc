@@ -117,6 +117,43 @@ namespace type_texts {
 			}
 		}
 	}
-
-
+	
+	void output_aphorism(container* listToOutput, ofstream& ofst)
+	{
+		node* currentNode;
+		if (listToOutput->size == 0)
+		{
+			cout << "LIST IS EMPTY!" << endl;
+			return;
+		}
+		int count = 0;
+		for (int i = 0; i < listToOutput->size; i++)
+		{
+			currentNode = listToOutput->head;
+			for (int j = 0; j < i; j++)
+			{
+				currentNode = currentNode->next;
+			}
+			if (currentNode->plt->key == text::type::APHORISM)
+			{
+				count++;
+			}
+		}
+		ofst << "Container contains " << count << " aphorisms. " << endl;
+		for (int i = 0; i < listToOutput->size; i++)
+		{
+			currentNode = listToOutput->head;
+			for (int j = 0; j < i; j++)
+			{
+				currentNode = currentNode->next;
+			}
+			if (currentNode->plt->key == text::type::APHORISM)
+			{
+				if (!output_node(listToOutput->head, i, ofst))
+				{
+					cout << "Node is broken!" << endl;
+				}
+			}
+		}
+	}
 } 
