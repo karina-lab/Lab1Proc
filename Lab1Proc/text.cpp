@@ -48,6 +48,24 @@ namespace type_texts {
 		}
 	}
 
-	
+	int get_punctuation(text* t)
+	{
+		if (t->key == text::type::APHORISM)
+		{
+			return get_punctuation((aphorism*)t);
+		}
+		if (t->key == text::type::PROVERB)
+		{
+			return get_punctuation((proverb*)t);
+		}
+		return -1;
+	}
+
+
+	bool compare(text* plt1, text* plt2)
+	{
+		return get_punctuation(plt1) < get_punctuation(plt2);
+	}
+
 
 }

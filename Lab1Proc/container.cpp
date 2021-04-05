@@ -84,4 +84,39 @@ namespace type_texts {
 		}
 	}
 
+	node* get_node(node* head, int index)
+	{
+		struct node* returnNode = head;
+
+		for (int i = 0; i < index; i++)
+		{
+			returnNode = returnNode->next;
+		}
+		return returnNode;
+	}
+
+	void swap(node* head, int index_first, int index_second)
+	{
+		struct node* temp = new node;
+
+		temp->plt = get_node(head, index_first)->plt;
+		get_node(head, index_first)->plt = get_node(head, index_second)->plt;
+		get_node(head, index_second)->plt = temp->plt;
+	}
+
+	void sort(int size, struct node* head)
+	{
+		for (int i = 0; i < size - 1; i++)
+		{
+			for (int j = i + 1; j < size; j++)
+			{
+				if (compare(get_node(head, i)->plt, get_node(head, j)->plt))
+				{
+					swap(head, i, j);
+				}
+			}
+		}
+	}
+
+
 } 
