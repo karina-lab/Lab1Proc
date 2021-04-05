@@ -25,9 +25,9 @@ namespace type_texts {
 	{
 		ofst << "It is proverb: " << p->content << ", it's from country: " << p->country ;
 		if (!(p->rating == 0))
-			ofst << " and its rating is: " << p->rating << endl;
+			ofst << " and its rating is: " << p->rating;
 		else
-			ofst << " and its rating is unknown " << endl;
+			ofst << " and its rating is unknown ";
 		ofst << ". Number of punctuation marks: " << get_punctuation(p) << endl;
 	}
 

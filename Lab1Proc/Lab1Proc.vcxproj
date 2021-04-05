@@ -156,6 +156,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="node.cpp" />
     <ClCompile Include="proverb.cpp" />
+    <ClCompile Include="riddle.cpp" />
     <ClCompile Include="text.cpp" />
     <ClCompile Include="TryInt32.cpp" />
   </ItemGroup>
@@ -164,6 +165,7 @@
     <ClInclude Include="container.h" />
     <ClInclude Include="node.h" />
     <ClInclude Include="proverb.h" />
+    <ClInclude Include="riddle.h" />
     <ClInclude Include="text.h" />
     <ClInclude Include="TryInt32.h" />
   </ItemGroup>

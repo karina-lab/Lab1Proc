@@ -69,6 +69,10 @@ namespace type_texts {
 		{
 			return get_punctuation((proverb*)t);
 		}
+		if (t->key == text::type::RIDDLE)
+		{
+			return get_punctuation((riddle*)t);
+		}
 		return -1;
 	}
 

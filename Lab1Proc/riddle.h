@@ -10,8 +10,10 @@ namespace type_texts {
 	{
 		string content;
 		string answer;
+		int rating;
 	};
 	riddle* riddle_input(ifstream& ifst);
 	void riddle_output(riddle* r, ofstream& ofst);
+	int get_punctuation(riddle* r);
 }
 #endif

@@ -1,5 +1,5 @@
-1 aphor) karina
-2 prov!!!!! russia
-1 abc???? def
-2 qwe. rty
-1 12,3( 456
+1 aphor) karina 5
+2 prov!!!!! russia 6
+1 abc???? def 10
+3 qwe. rty 8
+1 12,3( 456 11

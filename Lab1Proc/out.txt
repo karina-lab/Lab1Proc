@@ -1,6 +1,6 @@
 Container contains 5 elements. 
-It is proverb: prov!!!!! and it's from country: russia. Number of punctuation marks: 5
-It is aphorism: abc???? and it's autor is: def. Number of punctuation marks: 4
-It is aphorism: 12,3( and it's autor is: 456. Number of punctuation marks: 2
-It is proverb: qwe. and it's from country: rty. Number of punctuation marks: 1
-It is aphorism: aphor) and it's autor is: karina. Number of punctuation marks: 1
+It is proverb: prov!!!!!, it's from country: russia and its rating is: 6. Number of punctuation marks: 5
+It is aphorism: abc????, it's autor is: def and its rating is: 10. Number of punctuation marks: 4
+It is aphorism: 12,3(, it's autor is: 456 and its rating is unknown. Number of punctuation marks: 2
+It is riddle: qwe. and it's from country: rty and its rating is: 8. Number of punctuation marks: 1
+It is aphorism: aphor), it's autor is: karina and its rating is: 5. Number of punctuation marks: 1
