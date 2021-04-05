@@ -14,5 +14,6 @@ namespace type_texts {
 	};
 	aphorism* aphorism_input(ifstream& ifst);
 	void aphorism_output(aphorism* a, ofstream& ofst);
+	int get_punctuation(aphorism* a);
 }
 #endif

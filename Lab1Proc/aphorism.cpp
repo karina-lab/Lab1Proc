@@ -28,6 +28,26 @@
 			ofst << " and its rating is: " << a->rating << endl;
 		else
 			ofst << " and its rating is unknown " << endl;
+		ofst << ". Number of punctuation marks: " << get_punctuation(a) << endl;
+	}
+
+	int get_punctuation(aphorism* a)
+	{
+		int count = 0;
+		string punc = ".,!?;:-()";
+
+		for (int i = 0; i < punc.size(); i++)
+		{
+			for (int j = 0; j < a->content.size(); j++)
+			{
+				if (punc[i] == a->content[j])
+				{
+					count++;
+				}
+			}
+		}
+
+		return count;
 	}
 
 }

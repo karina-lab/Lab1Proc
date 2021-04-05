@@ -28,6 +28,26 @@ namespace type_texts {
 			ofst << " and its rating is: " << p->rating << endl;
 		else
 			ofst << " and its rating is unknown " << endl;
+		ofst << ". Number of punctuation marks: " << get_punctuation(p) << endl;
+	}
+
+	int get_punctuation(proverb* p)
+	{
+		int count = 0;
+		string punc = ".,!?;:-()";
+
+		for (int i = 0; i < punc.size(); i++)
+		{
+			for (int j = 0; j < p->content.size(); j++)
+			{
+				if (punc[i] == p->content[j])
+				{
+					count++;
+				}
+			}
+		}
+
+		return count;
 	}
 
 }
