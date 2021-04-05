@@ -14,8 +14,8 @@ namespace type_texts {
 		text() {}
 		~text() {}
 
-		enum type { APHORISM, PROVERB };
-		type key; 
+		enum type { APHORISM, PROVERB, RIDDLE };
+		type key;
 		string content;
 		union {
 			aphorism a;
