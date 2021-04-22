@@ -8,12 +8,12 @@ using namespace std;
 namespace type_texts {
 	struct proverb
 	{
-		string content;
+	//	string content;
 		string country;
 		int rating;
 	};
-	proverb* proverb_input(ifstream& ifst);
+	proverb* proverb_input(proverb* p, ifstream& ifst);
 	void proverb_output(proverb* p, ofstream& ofst);
-	int get_punctuation(proverb* p);
+	//int get_punctuation(proverb* p);
 }
 #endif

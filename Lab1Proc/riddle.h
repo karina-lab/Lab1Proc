@@ -8,12 +8,12 @@ using namespace std;
 namespace type_texts {
 	struct riddle
 	{
-		string content;
+		//string content;
 		string answer;
-		int rating;
+	//	int rating;
 	};
-	riddle* riddle_input(ifstream& ifst);
+	riddle* riddle_input(riddle* r, ifstream& ifst);
 	void riddle_output(riddle* r, ofstream& ofst);
-	int get_punctuation(riddle* r);
+	//int get_punctuation(riddle* r);
 }
 #endif

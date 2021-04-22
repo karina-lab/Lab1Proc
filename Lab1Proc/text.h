@@ -4,6 +4,7 @@
 #include <string>
 #include "aphorism.h"
 #include "proverb.h"
+#include "riddle.h"
 
 using namespace std;
 namespace type_texts {
@@ -17,9 +18,11 @@ namespace type_texts {
 		enum type { APHORISM, PROVERB, RIDDLE };
 		type key;
 		string content;
+		int rating;
 		union {
-			aphorism a;
+			aphorism a;	
 			proverb p;
+			riddle r;
 		};
 	};
 
