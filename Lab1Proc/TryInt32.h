@@ -5,9 +5,9 @@
 
 using namespace std;
 
-namespace type_texts {
+namespace type_texts 
+{
 	bool TryInt32(string rat);
-
 };
 
 #endif

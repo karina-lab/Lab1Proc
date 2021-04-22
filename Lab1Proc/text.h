@@ -7,9 +7,9 @@
 #include "riddle.h"
 
 using namespace std;
-namespace type_texts {
 
-
+namespace type_texts 
+{
 	struct text
 	{
 		text() {}
@@ -20,12 +20,11 @@ namespace type_texts {
 		string content;
 		int rating;
 		union {
-			aphorism a;	
+			aphorism a;
 			proverb p;
 			riddle r;
 		};
 	};
-
 	text* text_input(ifstream& ifst);
 	bool text_output(text* t, ofstream& ofst);
 	bool compare(text* plt1, text* plt2);

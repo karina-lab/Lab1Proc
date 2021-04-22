@@ -5,15 +5,15 @@
 #include "node.h"
 
 using namespace std;
-namespace type_texts {
 
+namespace type_texts 
+{
 	struct container
 	{
 		long size;
 		node* head;
 
 	};
-
 	void init_list(struct container* newList);
 	void clear_list(struct container* listToClear);
 	void fill_list(struct container* listToFill, ifstream& ifst);
@@ -22,6 +22,5 @@ namespace type_texts {
 	void swap(struct node* head, int first, int second);
 	void sort(int size, struct node* head);
 	void output_aphorism(container* listToOutput, ofstream& ofst);
-
-}   
+}
 #endif 

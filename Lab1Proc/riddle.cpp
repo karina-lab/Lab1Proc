@@ -2,8 +2,8 @@
 #include <fstream>
 #include "riddle.h"
 
-namespace type_texts {
-
+namespace type_texts 
+{
 	riddle* riddle_input(riddle* r, ifstream& ifst)
 	{
 		r->answer = "";
@@ -15,11 +15,8 @@ namespace type_texts {
 		}
 		return r;
 	}
-
-
 	void riddle_output(riddle* r, ofstream& ofst)
 	{
 		ofst << " and it's from country: " << r->answer;
 	}
-
 }

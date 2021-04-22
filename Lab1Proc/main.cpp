@@ -1,6 +1,7 @@
 ﻿#include <iostream>
 #include <fstream>
 #include "container.h"
+
 using namespace std;
 using namespace type_texts;
 
@@ -27,7 +28,6 @@ int main(int argc, char const* argv[])
 		cout << "file is not open!" << endl;
 		return 1;
 	}
-
 	cout << "Start" << endl;
 	container* c = new container;
 	init_list(c);
@@ -41,6 +41,5 @@ int main(int argc, char const* argv[])
 	cout << "Empty container. " << endl;
 	output_list(c, ofst);
 	cout << "Stop" << endl;
-
 	return 0;
 }

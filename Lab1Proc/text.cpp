@@ -6,9 +6,10 @@
 #include "riddle.h"
 #include "TryInt32.h"
 
-namespace type_texts {
-
-	text* text_input(ifstream& ifst) {
+namespace type_texts 
+{
+	text* text_input(ifstream& ifst) 
+	{
 		text* t;
 		int k;
 		ifst >> k;
@@ -91,11 +92,8 @@ namespace type_texts {
 			return 0;
 		}
 	}
-
-
-	bool text_output(text* t, ofstream& ofst) {
-
-
+	bool text_output(text* t, ofstream& ofst) 
+	{
 		if (t->key == text::type::APHORISM)
 		{
 			ofst << "It is aphorism: " << t->content;
@@ -154,12 +152,8 @@ namespace type_texts {
 		return count;
 	}
 
-
-
 	bool compare(text* plt1, text* plt2)
 	{
 		return get_punctuation(plt1) < get_punctuation(plt2);
 	}
-
-
 }

@@ -1,15 +1,13 @@
 #include <iostream>
 #include <fstream>
 #include "container.h"
-namespace type_texts {
-
+namespace type_texts 
+{
 	void init_list(container* initList)
 	{
 		initList->size = 0;
 		initList->head = NULL;
 	}
-
-
 	void clear_list(container* listToClear)
 	{
 		if (listToClear->head == NULL)
@@ -27,11 +25,9 @@ namespace type_texts {
 
 		listToClear->size = 0;
 	}
-
-
 	void fill_list(struct container* listToFill, ifstream& ifst)
 	{
-		
+
 		if (listToFill->head != NULL)
 		{
 			cout << "LIST IS NOT EMPTY!" << endl;
@@ -44,10 +40,7 @@ namespace type_texts {
 				(listToFill->size)++;
 			}
 		}
-
-
 	}
-
 	bool output_node(struct node* headNode, int pos, ofstream& ofst)
 	{
 		node* currentNode = headNode;
@@ -62,10 +55,8 @@ namespace type_texts {
 			cout << "Cannot output text!" << endl;
 			return false;
 		}
-		
 		return true;
 	}
-
 	void output_list(struct container* listToOutput, ofstream& ofst)
 	{
 		if (listToOutput->size == 0)
@@ -73,7 +64,6 @@ namespace type_texts {
 			cout << "LIST IS EMPTY!" << endl;
 			return;
 		}
-
 		ofst << "Container contains " << listToOutput->size << " elements. " << endl;
 		for (int i = 0; i < listToOutput->size; i++)
 		{
@@ -83,27 +73,22 @@ namespace type_texts {
 			}
 		}
 	}
-
 	node* get_node(node* head, int index)
 	{
 		struct node* returnNode = head;
-
 		for (int i = 0; i < index; i++)
 		{
 			returnNode = returnNode->next;
 		}
 		return returnNode;
 	}
-
 	void swap(node* head, int index_first, int index_second)
 	{
 		struct node* temp = new node;
-
 		temp->plt = get_node(head, index_first)->plt;
 		get_node(head, index_first)->plt = get_node(head, index_second)->plt;
 		get_node(head, index_second)->plt = temp->plt;
 	}
-
 	void sort(int size, struct node* head)
 	{
 		for (int i = 0; i < size - 1; i++)
@@ -117,7 +102,7 @@ namespace type_texts {
 			}
 		}
 	}
-	
+
 	void output_aphorism(container* listToOutput, ofstream& ofst)
 	{
 		node* currentNode;
@@ -156,4 +141,4 @@ namespace type_texts {
 			}
 		}
 	}
-} 
+}
