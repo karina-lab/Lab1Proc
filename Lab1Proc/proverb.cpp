@@ -9,6 +9,11 @@ namespace type_texts {
 		
 		p->country = "";
 		ifst >> p->country;
+		if (ifst.fail())
+		{
+			cout << "Wrong input!" << endl;
+			return 0;
+		}
 		return p;
 	}
 

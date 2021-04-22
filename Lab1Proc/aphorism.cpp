@@ -8,6 +8,11 @@
 	{
 		a->autor = "";
 		ifst >> a->autor;
+		if (ifst.fail())
+		{
+			cout << "Wrong input!" << endl;
+			return 0;
+		}
 		return a;
 	}
 

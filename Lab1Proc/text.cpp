@@ -19,9 +19,19 @@ namespace type_texts {
 			t = new text;
 			t->content = "";
 			ifst >> t->content;
+			if (ifst.fail())
+			{
+				cout << "Wrong input!" << endl;
+				return 0;
+			}
 			t = (text*)aphorism_input((aphorism*)t, ifst);
 			t->rating = 0;
 			ifst >> rat;
+			if (ifst.fail())
+			{
+				cout << "Wrong input!" << endl;
+				return 0;
+			}
 			if (!(TryInt32(rat)))
 			{
 				rat = "0";
@@ -33,9 +43,19 @@ namespace type_texts {
 			t = new text;
 			t->content = "";
 			ifst >> t->content;
+			if (ifst.fail())
+			{
+				cout << "Wrong input!" << endl;
+				return 0;
+			}
 			t = (text*)proverb_input((proverb*)t, ifst);
 			t->rating = 0;
 			ifst >> rat;
+			if (ifst.fail())
+			{
+				cout << "Wrong input!" << endl;
+				return 0;
+			}
 			if (!(TryInt32(rat)))
 			{
 				rat = "0";
@@ -47,9 +67,19 @@ namespace type_texts {
 			t = new text;
 			t->content = "";
 			ifst >> t->content;
+			if (ifst.fail())
+			{
+				cout << "Wrong input!" << endl;
+				return 0;
+			}
 			t = (text*)riddle_input((riddle*)t, ifst);
 			t->rating = 0;
 			ifst >> rat;
+			if (ifst.fail())
+			{
+				cout << "Wrong input!" << endl;
+				return 0;
+			}
 			if (!(TryInt32(rat)))
 			{
 				rat = "0";
