@@ -27,7 +27,7 @@ namespace type_texts {
 		if (!(p->rating == 0))
 			ofst << " and its rating is: " << p->rating;
 		else
-			ofst << " and its rating is unknown ";
+			ofst << " and its rating is unknown";
 		ofst << ". Number of punctuation marks: " << get_punctuation(p) << endl;
 	}
 

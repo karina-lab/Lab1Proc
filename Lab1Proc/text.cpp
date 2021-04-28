@@ -4,13 +4,19 @@
 #include "proverb.h"
 #include "aphorism.h"
 #include "riddle.h"
+#include "TryInt32.h"
 
 namespace type_texts {
 
 	text* text_input(ifstream& ifst) {
 		text* t;
-		int k;
-		ifst >> k;
+		string kk;
+		ifst >> kk;
+		if (!(TryInt32(kk)))
+		{
+			kk = "0";
+		}
+		int k = stoi(kk);
 		switch (k)
 		{
 		case 1:

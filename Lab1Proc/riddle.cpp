@@ -23,11 +23,11 @@ namespace type_texts {
 
 	void riddle_output(riddle* r, ofstream& ofst)
 	{
-		ofst << "It is riddle: " << r->content << " and it's from country: " << r->answer;
+		ofst << "It is riddle: " << r->content << " and its answer is: " << r->answer;
 		if (!(r->rating == 0))
 			ofst << " and its rating is: " << r->rating;
 		else
-			ofst << " and its rating is unknown ";
+			ofst << " and its rating is unknown";
 		ofst << ". Number of punctuation marks: " << get_punctuation(r) << endl;
 	}
 

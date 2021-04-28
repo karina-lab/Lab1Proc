@@ -23,7 +23,7 @@
 
 	void aphorism_output(aphorism* a, ofstream& ofst)
 	{
-		ofst << "It is aphorism: " << a->content << ", it's autor is: " << a ->autor;
+		ofst << "It is aphorism: " << a->content << ", its autor is: " << a ->autor;
 		if (!(a->rating == 0))
 			ofst << " and its rating is: " << a->rating;
 		else
