@@ -40,4 +40,17 @@ namespace type_texts
 		}
 		return true;
 	}
+	bool node_output(struct node* headNode, int pos, ofstream& ofst) {
+		node* currentNode = get_node(headNode, pos);
+
+		if (!text_output(currentNode->plt, ofst)) {
+			cout << "|Cannot to output node #" << (pos + 1) << "|" << endl;
+			return false;
+		}
+		else {
+			ofst << "Number of punctuation marks: " << get_punctuation(currentNode->plt) << "." << endl;
+			return true;
+		}
+
+	}
 }

@@ -1,3 +1,55 @@
+Multimethod.
+	Aphorism and Proverb.
+It is aphorism: aphosvr), it's autor is: karina and its rating is: 5. Number of punctuation marks: 1
+Number of punctuation marks: 1.
+It is proverb: prov!!!!, it's from country: russia and its rating is: 6. Number of punctuation marks: 4
+Number of punctuation marks: 4.
+	Aphorism and Aphorism.
+It is aphorism: aphosvr), it's autor is: karina and its rating is: 5. Number of punctuation marks: 1
+Number of punctuation marks: 1.
+It is aphorism: abc????, it's autor is: def and its rating is: 10. Number of punctuation marks: 4
+Number of punctuation marks: 4.
+	Aphorism and Riddle.
+It is aphorism: aphosvr), it's autor is: karina and its rating is: 5. Number of punctuation marks: 1
+Number of punctuation marks: 1.
+It is riddle: qwe. and it's from country: rty and its rating is: 8. Number of punctuation marks: 1
+Number of punctuation marks: 1.
+	Aphorism and Aphorism.
+It is aphorism: aphosvr), it's autor is: karina and its rating is: 5. Number of punctuation marks: 1
+Number of punctuation marks: 1.
+It is aphorism: 12,3(, it's autor is: 456 and its rating is unknown . Number of punctuation marks: 2
+Number of punctuation marks: 2.
+	Proverb and Aphorism.
+It is proverb: prov!!!!, it's from country: russia and its rating is: 6. Number of punctuation marks: 4
+Number of punctuation marks: 4.
+It is aphorism: abc????, it's autor is: def and its rating is: 10. Number of punctuation marks: 4
+Number of punctuation marks: 4.
+	Proverb and Riddle.
+It is proverb: prov!!!!, it's from country: russia and its rating is: 6. Number of punctuation marks: 4
+Number of punctuation marks: 4.
+It is riddle: qwe. and it's from country: rty and its rating is: 8. Number of punctuation marks: 1
+Number of punctuation marks: 1.
+	Proverb and Aphorism.
+It is proverb: prov!!!!, it's from country: russia and its rating is: 6. Number of punctuation marks: 4
+Number of punctuation marks: 4.
+It is aphorism: 12,3(, it's autor is: 456 and its rating is unknown . Number of punctuation marks: 2
+Number of punctuation marks: 2.
+	Aphorism and Riddle.
+It is aphorism: abc????, it's autor is: def and its rating is: 10. Number of punctuation marks: 4
+Number of punctuation marks: 4.
+It is riddle: qwe. and it's from country: rty and its rating is: 8. Number of punctuation marks: 1
+Number of punctuation marks: 1.
+	Aphorism and Aphorism.
+It is aphorism: abc????, it's autor is: def and its rating is: 10. Number of punctuation marks: 4
+Number of punctuation marks: 4.
+It is aphorism: 12,3(, it's autor is: 456 and its rating is unknown . Number of punctuation marks: 2
+Number of punctuation marks: 2.
+	Riddle and Aphorism.
+It is riddle: qwe. and it's from country: rty and its rating is: 8. Number of punctuation marks: 1
+Number of punctuation marks: 1.
+It is aphorism: 12,3(, it's autor is: 456 and its rating is unknown . Number of punctuation marks: 2
+Number of punctuation marks: 2.
+
 Container contains 5 elements. 
 It is proverb: prov!!!!, it's from country: russia and its rating is: 6. Number of punctuation marks: 4
 It is aphorism: abc????, it's autor is: def and its rating is: 10. Number of punctuation marks: 4

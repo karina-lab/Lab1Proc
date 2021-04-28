@@ -33,6 +33,9 @@ int main(int argc, char const* argv[])
 	init_list(c);
 	fill_list(c, ifst);
 	cout << "Filled container. " << endl;
+	MultiMethod(c, ofst);
+	cout << "Multimethod worked" << endl;
+	ofst << endl;
 	cout << "Sorted container. " << endl;
 	sort(c->size, c->head);
 	output_list(c, ofst);

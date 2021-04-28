@@ -22,5 +22,6 @@ namespace type_texts
 	void swap(struct node* head, int first, int second);
 	void sort(int size, struct node* head);
 	void output_aphorism(container* listToOutput, ofstream& ofst);
+	void MultiMethod(struct container* list, ofstream& ofst);
 }
 #endif 
