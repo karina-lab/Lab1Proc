@@ -4,3 +4,34 @@ It is proverb: prov and it's from country: russia
 It is aphorism: abc and it's autor is: def
 It is proverb: qwe and it's from country: rty
 It is aphorism: 123 and it's autor is: 456
+Multimethod.
+Aphorism and Proverb.
+It is aphorism: aphor and it's autor is: karina
+It is proverb: prov and it's from country: russia
+Aphorism and Aphorism.
+It is aphorism: aphor and it's autor is: karina
+It is aphorism: abc and it's autor is: def
+Aphorism and Proverb.
+It is aphorism: aphor and it's autor is: karina
+It is proverb: qwe and it's from country: rty
+Aphorism and Aphorism.
+It is aphorism: aphor and it's autor is: karina
+It is aphorism: 123 and it's autor is: 456
+Proverb and Aphorism.
+It is proverb: prov and it's from country: russia
+It is aphorism: abc and it's autor is: def
+Proverb and Proverb.
+It is proverb: prov and it's from country: russia
+It is proverb: qwe and it's from country: rty
+Proverb and Aphorism.
+It is proverb: prov and it's from country: russia
+It is aphorism: 123 and it's autor is: 456
+Aphorism and Proverb.
+It is aphorism: abc and it's autor is: def
+It is proverb: qwe and it's from country: rty
+Aphorism and Aphorism.
+It is aphorism: abc and it's autor is: def
+It is aphorism: 123 and it's autor is: 456
+Proverb and Aphorism.
+It is proverb: qwe and it's from country: rty
+It is aphorism: 123 and it's autor is: 456

@@ -42,4 +42,15 @@ namespace type_texts {
 		}
 		return true;
 	}
+	bool node_output(struct node* headNode, int pos, ofstream& ofst) {
+		node* currentNode = headNode;
+		for (int i = 0; i < pos; i++) {
+			currentNode = currentNode->next;
+		}
+		if (!text_output(currentNode->plt, ofst)) {
+			cout << "Cannot output text!" << endl;
+			return false;
+		}
+		return true;
+	}
 }
